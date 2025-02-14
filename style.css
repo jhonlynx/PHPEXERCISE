@@ -1,0 +1,42 @@
+body {
+    background: radial-gradient(circle, #4facfe, #1E3A8A);
+}
+
+.array{
+    background: #E6E6FA;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+}
+
+.statement {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.statement ul {
+    list-style: none;
+    padding: 0;
+}
+
+.statement li {
+    text-decoration: none;
+    font-size: 24px;
+    color: #444;
+    margin: 5px 0;
+}
+
+
+
+

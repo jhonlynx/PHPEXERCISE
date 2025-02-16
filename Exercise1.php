@@ -12,7 +12,7 @@
     <div class="array">
         <?php
         // array of weather conditions 
-        $weather_conditions = [
+        $weatherConditions = [
             "rain",
             "sunshine",
             "clouds",
@@ -28,9 +28,9 @@
         // print the statement
         echo "<p class='statement'>
             \"We've seen all kinds of weather this month. <br> 
-            At the beginning of the month, we had {$weather_conditions[5]} and {$weather_conditions[6]}. <br> 
-            Then came {$weather_conditions[1]} with a few {$weather_conditions[2]} and some {$weather_conditions[0]}. <br> 
-            At least we didn't get any {$weather_conditions[3]} or {$weather_conditions[4]}.\"</p>";
+            At the beginning of the month, we had {$weatherConditions[5]} and {$weatherConditions[6]}. <br> 
+            Then came {$weatherConditions[1]} with a few {$weatherConditions[2]} and some {$weatherConditions[0]}. <br> 
+            At least we didn't get any {$weatherConditions[3]} or {$weatherConditions[4]}.\"</p>";
         ?>
     </div>
 </body>
